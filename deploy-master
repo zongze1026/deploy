@@ -1,0 +1,165 @@
+2021-01-12 09:42:57.131 ERROR 704 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.rolling.RollingFileAppender[INFO_FILE] - Failed to create parent directories for [F:\project\deploy-master\logging.path=C:\Users\a\Desktop\logs\springBoot-info-test.log]
+ERROR in ch.qos.logback.core.rolling.RollingFileAppender[INFO_FILE] - openFile(logging.path=C:\Users\a\Desktop\logs\springBoot-info-test.log,true) call failed. java.io.FileNotFoundException: logging.path=C:\Users\a\Desktop\logs\springBoot-info-test.log (文件名、目录名或卷标语法不正确。)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:82)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:117)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:292)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:265)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:228)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:201)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:347)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.zongze.deploy.AutoDeployApplication.main(AutoDeployApplication.java:10)
+
+2021-01-12 09:47:45.038 ERROR 17132 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.rolling.RollingFileAppender[INFO_FILE] - Failed to create parent directories for [F:\project\deploy-master\logging.path=C:\Users\a\Desktop\logs\logging.file_IS_UNDEFINED]
+ERROR in ch.qos.logback.core.rolling.RollingFileAppender[INFO_FILE] - openFile(logging.path=C:\Users\a\Desktop\logs/logging.file_IS_UNDEFINED,true) call failed. java.io.FileNotFoundException: logging.path=C:\Users\a\Desktop\logs\logging.file_IS_UNDEFINED (文件名、目录名或卷标语法不正确。)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:82)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:117)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:292)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:265)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:228)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:201)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:347)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.zongze.deploy.AutoDeployApplication.main(AutoDeployApplication.java:10)
+
+2021-01-12 09:48:19.626 ERROR 13616 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.rolling.RollingFileAppender[INFO_FILE] - Failed to create parent directories for [F:\project\deploy-master\logging.path=C:\Users\a\Desktop\logs\sprisng.log]
+ERROR in ch.qos.logback.core.rolling.RollingFileAppender[INFO_FILE] - openFile(logging.path=C:\Users\a\Desktop\logs/sprisng.log,true) call failed. java.io.FileNotFoundException: logging.path=C:\Users\a\Desktop\logs\sprisng.log (文件名、目录名或卷标语法不正确。)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:82)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:117)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:292)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:265)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:228)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:201)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:347)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.zongze.deploy.AutoDeployApplication.main(AutoDeployApplication.java:10)
+
+2021-01-12 09:50:29.220  INFO 20056 --- [main] com.zongze.deploy.AutoDeployApplication  : Starting AutoDeployApplication on DESKTOP-8032803 with PID 20056 (F:\project\deploy-master\target\classes started by a in F:\project\deploy-master)
+2021-01-12 09:50:29.223  INFO 20056 --- [main] com.zongze.deploy.AutoDeployApplication  : The following profiles are active: dev
+2021-01-12 09:50:29.931  INFO 20056 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-01-12 09:50:29.946  INFO 20056 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-12 09:50:29.947  INFO 20056 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2021-01-12 09:50:30.014  INFO 20056 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-12 09:50:30.014  INFO 20056 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 748 ms
+2021-01-12 09:50:30.164  INFO 20056 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 09:50:30.288  INFO 20056 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-12 09:50:30.291  INFO 20056 --- [main] com.zongze.deploy.AutoDeployApplication  : Started AutoDeployApplication in 1.34 seconds (JVM running for 2.092)
+2021-01-12 09:52:29.620  INFO 6952 --- [main] com.zongze.deploy.AutoDeployApplication  : Starting AutoDeployApplication on DESKTOP-8032803 with PID 6952 (F:\project\deploy-master\target\classes started by a in F:\project\deploy-master)
+2021-01-12 09:52:29.622  INFO 6952 --- [main] com.zongze.deploy.AutoDeployApplication  : The following profiles are active: dev
+2021-01-12 09:52:30.315  INFO 6952 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-01-12 09:52:30.331  INFO 6952 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-12 09:52:30.331  INFO 6952 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2021-01-12 09:52:30.405  INFO 6952 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-12 09:52:30.405  INFO 6952 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 750 ms
+2021-01-12 09:52:30.570  INFO 6952 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 09:52:30.691  INFO 6952 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-12 09:52:30.694  INFO 6952 --- [main] com.zongze.deploy.AutoDeployApplication  : Started AutoDeployApplication in 1.386 seconds (JVM running for 2.185)
+2021-01-12 09:53:40.043  INFO 21500 --- [main] com.zongze.deploy.AutoDeployApplication  : Starting AutoDeployApplication on DESKTOP-8032803 with PID 21500 (F:\project\deploy-master\target\classes started by a in F:\project\deploy-master)
+2021-01-12 09:53:40.045  INFO 21500 --- [main] com.zongze.deploy.AutoDeployApplication  : The following profiles are active: dev
+2021-01-12 09:53:40.722  INFO 21500 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-01-12 09:53:40.737  INFO 21500 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-12 09:53:40.737  INFO 21500 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2021-01-12 09:53:40.805  INFO 21500 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-12 09:53:40.806  INFO 21500 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 732 ms
+2021-01-12 09:53:40.958  INFO 21500 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 09:53:41.083  INFO 21500 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-12 09:53:41.085  INFO 21500 --- [main] com.zongze.deploy.AutoDeployApplication  : Started AutoDeployApplication in 1.342 seconds (JVM running for 2.126)
+2021-01-12 10:00:23.636  INFO 11616 --- [main] com.zongze.deploy.AutoDeployApplication  : Starting AutoDeployApplication on DESKTOP-8032803 with PID 11616 (F:\project\deploy-master\target\classes started by a in F:\project\deploy-master)
+2021-01-12 10:00:23.638  INFO 11616 --- [main] com.zongze.deploy.AutoDeployApplication  : The following profiles are active: dev
+2021-01-12 10:00:24.335  INFO 11616 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-01-12 10:00:24.350  INFO 11616 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-12 10:00:24.351  INFO 11616 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2021-01-12 10:00:24.415  INFO 11616 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-12 10:00:24.416  INFO 11616 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 751 ms
+2021-01-12 10:00:24.566  INFO 11616 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 10:00:24.692  INFO 11616 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-12 10:00:24.695  INFO 11616 --- [main] com.zongze.deploy.AutoDeployApplication  : Started AutoDeployApplication in 1.352 seconds (JVM running for 2.108)
+2021-01-12 10:06:38.303  INFO 7232 --- [main] com.zongze.deploy.AutoDeployApplication  : Starting AutoDeployApplication on DESKTOP-8032803 with PID 7232 (F:\project\deploy-master\target\classes started by a in F:\project\deploy-master)
+2021-01-12 10:06:38.305  INFO 7232 --- [main] com.zongze.deploy.AutoDeployApplication  : The following profiles are active: dev
+2021-01-12 10:06:38.970  INFO 7232 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-01-12 10:06:38.985  INFO 7232 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-12 10:06:38.986  INFO 7232 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2021-01-12 10:06:39.059  INFO 7232 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-12 10:06:39.059  INFO 7232 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 726 ms
+2021-01-12 10:06:39.246  INFO 7232 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 10:06:39.392  INFO 7232 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-12 10:06:39.394  INFO 7232 --- [main] com.zongze.deploy.AutoDeployApplication  : Started AutoDeployApplication in 1.376 seconds (JVM running for 2.127)
+2021-01-12 10:09:41.797  INFO 20488 --- [main] com.zongze.deploy.AutoDeployApplication  : Starting AutoDeployApplication on DESKTOP-8032803 with PID 20488 (F:\project\deploy-master\target\classes started by a in F:\project\deploy-master)
+2021-01-12 10:09:41.799  INFO 20488 --- [main] com.zongze.deploy.AutoDeployApplication  : The following profiles are active: dev
+2021-01-12 10:09:42.491  INFO 20488 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-01-12 10:09:42.506  INFO 20488 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-12 10:09:42.507  INFO 20488 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2021-01-12 10:09:42.588  INFO 20488 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-12 10:09:42.588  INFO 20488 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 753 ms
+2021-01-12 10:09:42.751  INFO 20488 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 10:09:42.898  INFO 20488 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-12 10:09:42.901  INFO 20488 --- [main] com.zongze.deploy.AutoDeployApplication  : Started AutoDeployApplication in 1.374 seconds (JVM running for 2.142)
+2021-01-12 10:10:47.466  INFO 24148 --- [main] com.zongze.deploy.AutoDeployApplication  : Starting AutoDeployApplication on DESKTOP-8032803 with PID 24148 (F:\project\deploy-master\target\classes started by a in F:\project\deploy-master)
+2021-01-12 10:10:47.469  INFO 24148 --- [main] com.zongze.deploy.AutoDeployApplication  : The following profiles are active: dev
+2021-01-12 10:10:48.145  INFO 24148 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-01-12 10:10:48.160  INFO 24148 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-12 10:10:48.161  INFO 24148 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2021-01-12 10:10:48.226  INFO 24148 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-12 10:10:48.227  INFO 24148 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 728 ms
+2021-01-12 10:10:48.376  INFO 24148 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 10:10:48.495  INFO 24148 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-12 10:10:48.498  INFO 24148 --- [main] com.zongze.deploy.AutoDeployApplication  : Started AutoDeployApplication in 1.307 seconds (JVM running for 2.157)
+2021-01-12 10:11:20.557  INFO 17176 --- [main] com.zongze.deploy.AutoDeployApplication  : Starting AutoDeployApplication on DESKTOP-8032803 with PID 17176 (F:\project\deploy-master\target\classes started by a in F:\project\deploy-master)
+2021-01-12 10:11:20.559  INFO 17176 --- [main] com.zongze.deploy.AutoDeployApplication  : The following profiles are active: dev
+2021-01-12 10:11:21.248  INFO 17176 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-01-12 10:11:21.264  INFO 17176 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-12 10:11:21.264  INFO 17176 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2021-01-12 10:11:21.333  INFO 17176 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-12 10:11:21.333  INFO 17176 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 743 ms
+2021-01-12 10:11:21.482  INFO 17176 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 10:11:21.607  INFO 17176 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-12 10:11:21.609  INFO 17176 --- [main] com.zongze.deploy.AutoDeployApplication  : Started AutoDeployApplication in 1.329 seconds (JVM running for 2.094)
+2021-01-12 10:13:53.046  INFO 4324 --- [main] com.zongze.deploy.AutoDeployApplication  : Starting AutoDeployApplication on DESKTOP-8032803 with PID 4324 (F:\project\deploy-master\target\classes started by a in F:\project\deploy-master)
+2021-01-12 10:13:53.048  INFO 4324 --- [main] com.zongze.deploy.AutoDeployApplication  : The following profiles are active: dev
+2021-01-12 10:13:53.718  INFO 4324 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-01-12 10:13:53.734  INFO 4324 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-12 10:13:53.734  INFO 4324 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2021-01-12 10:13:53.831  INFO 4324 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-12 10:13:53.831  INFO 4324 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 750 ms
+2021-01-12 10:13:53.978  INFO 4324 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 10:13:54.098  INFO 4324 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-01-12 10:13:54.100  INFO 4324 --- [main] com.zongze.deploy.AutoDeployApplication  : Started AutoDeployApplication in 1.325 seconds (JVM running for 2.066)
